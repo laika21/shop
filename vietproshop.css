@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333;
+}
+
+#header {
+    background: #222;
+}
+
+#logo,#search,#logo {
+    height: 60px;
+}
+
+#search input {
+    height: 30px;
+    width: 280px;
+    border-radius: 3px;
+    font-size: 13px;
+    padding-left: 15px;
+    border: none;
+}
+
+#search button {
+    background: #EB1F27;
+    padding: 0 15px;
+    border-radius: 0 3px 3px 0;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+}
+
+#search input,#search button {
+    float: left;
+}
+
+#search {
+    padding-top: 10px;
+}
+
+#cart {
+    text-align: end;
+    padding-top: 10px;
+}
+
+#cart a,#cart span {
+    color: white;
+    text-transform: capitalize;
+}
+
+#cart span {
+    height: 30px;
+    line-height: 30px;
+    background: #EB1F27;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    color: white;
+}
+
+#homepage {
+    background: #E7ECF4;
+}
+
+#menu {
+    height: auto;
+    width: 100%;
+    background: #EB1F27;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.menu-item {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    border-right: 1px solid #C50A11;
+    float: left;
+    list-style: none;
+}
+
+#menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background: #C50A11;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+#products h3 {
+    margin-top: 10px;
+}
+
+.banner-item {
+    margin-bottom: 10px;
+}
+
+.product-item {
+    text-align: center;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.product-list {
+    margin: 0 -5px;
+}
+
+.product-item h4 a{
+    font-weight: bold;
+    color: #333;
+    font-size: 13px;
+}
+
+.product-item p {
+    text-transform: capitalize;
+}
+
+.product-item p span {
+    color: #EB1F27;
+    font-weight: bold;
+}
+
+#logo-footer,#address,#service,#hotline {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#logo-footer p {
+    text-align: justify;
+}
+
+#address h3,#service h3,#hotline h3{
+    font-size: 18px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+#footer-bottom {
+    height: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #7F8B95;
+    background: #1D1E24;
+}
+
+#footer-bottom p {
+    margin: 0;
+}
+
+@media (max-width:992px) {
+    #banner {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    #slider {
+        display: none;
+    }
+    #cart {
+        text-align: left;
+    }
+    .menu-item {
+        float: none;
+        border: none;
+        border-bottom: 1px solid #C50A11;
+    }
+    #menu ul {
+        margin: 0;
+    }
+    #logo button {
+        background: white;
+        float: right;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:768px) {
+    #menu {
+        display: block;
+    }
+
+    #logo button {
+        display: none;
+    }
+}
